@@ -5,6 +5,7 @@
     padding: var(--padding-card);
     transition: all var(--transition-normal);
     position: relative;
+    min-height: 320px;
   }
   
   .card:hover {

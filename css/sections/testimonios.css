@@ -1,6 +1,7 @@
 .testimonios {
-    padding: 2rem 1rem;
-    background-color: var(--background-color);
+    padding: var(--padding-section-mobile);
+    font-size: var(--text-size-section-title-mobile);
+    background-color: var(--color-bg);
     text-align: center;
   }
   
@@ -11,11 +12,11 @@
 
   @media (min-width: 1024px) {
     .testimonios {
-      padding: 4rem 2rem;
+      padding: var(--padding-section-desktop);
     }
   
     .testimonios h2 {
-      font-size: 2.5rem;
+      font-size: var(--text-size-section-title);
       margin-bottom: 3rem;
       position: relative;
     }
@@ -29,14 +30,5 @@
       width: 100px;
       height: 4px;
       background: var(--btn-color);
-    }
-  
-    .testimonios-container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2.5rem;
-      max-width: 1400px;
-      margin: 0 auto;
-      padding: 0 2rem;
     }
 }

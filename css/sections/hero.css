@@ -64,7 +64,6 @@
     .hero-grid {
       grid-template-areas: "text video";
       grid-template-columns: 1fr 1fr;
-      max-width: var(--max-width-container);
       margin: 0 auto;
       gap: var(--gap-section-large);
     }

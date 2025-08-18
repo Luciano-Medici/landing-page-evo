@@ -1,0 +1,13 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--gap-card-mobile);
+  }
+  
+  /* Desktop */
+    @media (min-width: 1024px) {
+        .grid {
+          grid-template-columns: repeat(3, 1fr);
+          gap: var(--gap-card-desktop);
+        }
+      }
