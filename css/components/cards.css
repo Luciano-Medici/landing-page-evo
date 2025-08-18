@@ -1,0 +1,36 @@
+/* components/cards.css */
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: var(--border-radius-lg);
+    padding: var(--padding-card);
+    transition: all var(--transition-normal);
+    position: relative;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-primary);
+  }
+  
+  .card__title {
+    color: var(--color-primary);
+    font-size: var(--text-size-card-title);
+    margin-bottom: 1rem;
+  }
+  
+  .card__body {
+    color: var(--color-text-alt);
+    line-height: var(--line-height-body);
+  }
+  
+  /* Versión desktop */
+  @media (min-width: 1024px) {
+    .card {
+      padding: var(--padding-card-lg);
+    }
+    
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: var(--shadow-primary-lg);
+    }
+  }

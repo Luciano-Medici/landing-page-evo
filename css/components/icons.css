@@ -1,0 +1,31 @@
+/* components/icons.css */
+.icon-card {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    padding: 12px;
+    background: var(--color-bg);
+    border: 2px solid var(--color-primary);
+    border-radius: 50%;
+    fill: var(--color-text);
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition-normal);
+    z-index: 2;
+  }
+  
+  .card:hover .icon-card {
+    transform: translateX(-50%) scale(1.1);
+  }
+  
+  /* Desktop */
+  @media (min-width: 1024px) {
+    .icon-card {
+      width: 70px;
+      height: 70px;
+      top: -35px;
+      padding: 15px;
+    }
+  }

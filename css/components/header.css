@@ -1,0 +1,34 @@
+/* Estilos base del contenedor header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: var(--z-index-dropdown);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--padding-desktop-section);
+    background-color: var(--color-bg);
+  }
+  
+  #logo img {
+    height: var(--logo-height-mobile);
+    width: auto;
+  }
+
+  /* Desktop */
+  @media (min-width: 1024px) {
+    header {
+      padding: var(--padding-desktop-section);
+    }
+  
+    #logo img {
+      height: var(--logo-height-desktop);
+    }
+  }
+  
+  /* Mega Desktop */
+  @media (min-width: 1600px) {
+    header {
+      padding: var(--padding-mega-desktop);
+    }
+  }

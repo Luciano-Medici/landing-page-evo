@@ -1,0 +1,74 @@
+:root {
+  /* Colores header */
+  --color-bg: #02061E;
+  --color-bg-transparent: rgba(2, 6, 30, 0.85);
+  --color-text: #FFFFFF;
+  --color-text-alt: #F4F4F4;
+  --btn-color: #00B4D8;
+  --btn-color-hover: #0096C7;
+
+  /* Tamaños imagen */
+  --logo-height-mobile: 40px;
+  --logo-height-desktop: 50px;
+
+  /* Z-index */
+  --z-index-dropdown: 1000;
+  --z-index-sticky: 1020;
+
+  /* Espaciado */
+  --padding-mobile-section: 1rem 1.5rem;
+  --padding-desktop-section: 2rem 8%;
+  --padding-desktop-wide: 3rem 10%;
+  --gap-section: 2rem;
+  --gap-section-large: 4rem;
+  --padding-mega-desktop: 30px 10%;
+
+  /* Tipografía */
+    --text-size-mobile-title: 2rem;
+    --text-size-mobile-subtitle: 1.5rem;
+    --text-size-mobile-body: 1rem;
+    --text-size-desktop-title: 3rem;
+    --text-size-desktop-subtitle: 1.8rem;
+    --text-size-desktop-body: 1.2rem;
+
+    --shadow-md: 0 8px 24px rgba(0,0,0,0.2);
+    --shadow-lg: 0 12px 32px rgba(0,0,0,0.3);
+    --shadow-primary: 0 4px 12px rgba(0, 180, 216, 0.3);
+
+    --border-radius-lg: 12px;
+    --border-radius-full: 50px;
+    
+    /* Transiciones */
+    --transition-normal: 0.3s ease;
+    
+    /* Contenedor */
+    --max-width-container: 1400px;
+    /* variables.css */
+  /* Cards */
+  --padding-card: 1.8rem;
+  --padding-card-lg: 2.5rem 2rem;
+  --text-size-card-title: 1.3rem;
+  
+  /* Sections */
+  --padding-section-mobile: 3rem 1.5rem;
+  --padding-section-desktop: 5rem 3rem;
+  --text-size-section-title-mobile: 1.8rem;
+  --text-size-section-title: 2.5rem;
+  
+  /* Grid */
+  --gap-card-mobile: 1.5rem;
+  --gap-card-desktop: 2.5rem;
+  --gap-card-large: 3.5rem;
+  
+  /* Efectos */
+  --shadow-primary: 0 10px 20px rgba(0, 180, 216, 0.1);
+  --shadow-primary-lg: 0 15px 30px rgba(0, 180, 216, 0.2);
+}
+  
+  :root{
+    --background-color: #02061E;
+    --text-color: #ffffff;
+    --btn-color: #00B4D8;
+    --btn-color-hover: #0096C7;
+    --color-text-alt: #F4F4F4
+  }

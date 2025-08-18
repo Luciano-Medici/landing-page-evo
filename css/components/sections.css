@@ -1,0 +1,36 @@
+/* components/sections.css */
+.section {
+    padding: var(--padding-section-mobile);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+  
+  .section__title {
+    text-align: center;
+    font-size: var(--text-size-section-title-mobile);
+    margin-bottom: 2.5rem;
+    position: relative;
+  }
+  
+  .section__title::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: var(--color-primary);
+  }
+  
+  /* Desktop */
+  @media (min-width: 1024px) {
+    .section {
+      padding: var(--padding-section-desktop);
+    }
+    
+    .section__title {
+      font-size: var(--text-size-section-title);
+      margin-bottom: 4rem;
+    }
+  }
