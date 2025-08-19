@@ -31,7 +31,7 @@
 <body>
     <header>
         <div id="logo">
-            <img src="./assets/logo-evoglobal.png" alt="logo evo global">
+            <a href="#home"><img src="./assets/logo-evoglobal.png" alt="logo evo global"></a>
         </div>
         <div class="menu">
             <div class="hamburger">
@@ -41,9 +41,9 @@
             </div>
             <ul class="options">
                 <li><a href="#home">Inicio</a></li>
-                <li><a href="#">Testimonios</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Adquirir entrada</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#why">¿Por que asistir?</a></li>
+                <li><a href="#tickets">Entradas</a></li>
             </ul>
         </div>
     </header>
@@ -67,7 +67,7 @@
       <h2 class="section_title">¿QUE VAS A VIVIR EN EL SUMMIT?</h2>
       <p class="section_intro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, aperiam commodi perferendis reprehenderit, repudiandae quaerat ullam quia iure saepe dolor error aspernatur vero amet magnam! Similique doloribus porro mollitia quos.</p>
       
-      <div class="grid">
+      <div class="flex">
         <div class="card">
           <svg class="icon-card" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>cash</title><path d="M3,6H21V18H3V6M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M7,8A2,2 0 0,1 5,10V14A2,2 0 0,1 7,16H17A2,2 0 0,1 19,14V10A2,2 0 0,1 17,8H7Z" /></svg>
           <h3 class="card__title">FINANZAS</h3>
@@ -93,11 +93,11 @@
           <p class="card__body">Ut enim ad minim veniam...</p>
         </div>
       </div>
-
+      <hr>
     </section>
 
-      <section class="testimonios">
-        <h2>Testimonios</h2>
+    <section id="testimonios" class="testimonios">
+        <h2>TESTIMONIOS</h2>
         
         <div class="grid">
           <div class="video-container">
@@ -113,9 +113,10 @@
           </div>
         </div>
     
+        <hr>
       </section>
 
-    <section class="section">
+    <section id="why" class="section">
       <h2 class="section_title">LAS 3 RAZONES POR LAS QUE ESTE SUMMIT<br>Marcará un antes y un después en tu vida</h2>
     
       <div class="grid">
@@ -163,11 +164,11 @@
               </div>
           </div>
       </div>
+      <hr>      
     </section>
-
-    <section class="entradas-section">
-        <div class="container">
-          <h2>ELIGE TU EXPERIENCIA</h2>
+    
+    <section id="tickets" class="section">
+          <h2 class="section_title">ELIGE TU EXPERIENCIA</h2>
           
           <div class="entradas-grid">
             <!-- Entrada General -->
@@ -204,7 +205,6 @@
               <button class="btn-reservar">RESERVAR AHORA</button>
             </div>
           </div>
-        </div>
       </section>
 
       <footer class="site-footer">

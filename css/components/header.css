@@ -7,7 +7,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: var(--padding-desktop-section);
-    background-color: var(--color-bg);
+    background: linear-gradient(to right, rgb(2,6,30) 0%, rgba(2,6,30,0.2) 100%);
   }
   
   #logo img {

@@ -1,29 +1,4 @@
-.entradas-section {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    padding: 4rem 1.5rem;
-    text-align: center;
-  }
-  
-  .entradas-section h2 {
-    font-size: 2.2rem;
-    margin-bottom: 3rem;
-    position: relative;
-    display: inline-block;
-  }
-  
-  .entradas-section h2::after {
-    content: '';
-    position: absolute;
-    bottom: -15px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 3px;
-    background: var(--btn-color);
-  }
-  
-  .entradas-grid {
+.entradas-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2.5rem;

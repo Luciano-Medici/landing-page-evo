@@ -1,13 +1,41 @@
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+/* Mobile (default) */
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: var(--gap-card-mobile);
   }
   
-  /* Desktop */
-    @media (min-width: 1024px) {
-        .grid {
-          grid-template-columns: repeat(3, 1fr);
-          gap: var(--gap-card-desktop);
-        }
-      }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--gap-card-mobile);
+  }
+  
+  /* Tablets (768px) */
+  @media (min-width: 768px) {
+    .flex {
+      flex-direction: row;  /* Cambia a fila en tablets */
+      flex-wrap: wrap;      /* Permite múltiples filas si no caben */
+      gap: 1.5rem;          /* Espacio intermedio entre móvil/desktop */
+    }
+  
+    .grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columnas en tablets */
+      gap: 1.5rem;
+    }
+  }
+  
+  /* Desktop (1024px) */
+  @media (min-width: 1024px) {
+    .flex {
+      gap: var(--gap-card-desktop);
+      /* flex-direction: row; ya está aplicado desde tablets */
+    }
+  
+    .grid {
+      grid-template-columns: repeat(3, 1fr); /* 3 columnas en desktop */
+      gap: var(--gap-card-desktop);
+    }
+  }

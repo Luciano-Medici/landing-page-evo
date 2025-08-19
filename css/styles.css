@@ -7,4 +7,30 @@
 
 body{
   font-family: "Inter", sans-serif;
+  background-color: var(--color-bg);
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: var(--btn-color);
+}
+
+hr{
+  display: none;
+}
+@media (min-width: 1024px) {
+  hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    width: 80vw;                  /* 80% del ancho de la pantalla */
+    margin: 0 auto;               /* Centrado horizontal */
+  }
+
 }
